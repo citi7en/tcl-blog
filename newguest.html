@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Register in my Guestbook</title>
+  </head>
+
+  <body bgcolor=white text=black>
+    <form action="cgi-bin/newguest.cgi" method="post">
+      <h1>Register in my Guestbook</h1>
+      <ul>
+        <li>Name </br><input type="text" name="name" size="40"></li></br>
+        <li>URL </br><input type="text" name="url"  size="40"></li>
+        <p>
+          If you don't have a home page, you can use an email URL
+          like welch@acm.org
+        </p>
+        <li>Additional HTML to include after your link:</li>
+        </br>
+        <textarea name="html" cols="60" rows="15"></textarea>
+        <li><input type="submit" name="new" value="Add me to your guestbook"></li>
+        <li><input type="submit" name="update" value="Update my questbook entry"></li>
+      </ul>
+    </form>
+  </body>
+</html>

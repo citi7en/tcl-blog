@@ -23,7 +23,7 @@ if {![file exists $datafile]} {
     <h3>No registered guests, yet.</h3>
     <p>
       Be the first
-      <a href='newguest.html'>registered guest!</a>
+      <a href='../newguest.html'>registered guest!</a>
     </p>"
 } else {
     puts "<h3>The following folks have registered in my GuestBook.</h3>
